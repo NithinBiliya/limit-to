@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <title>Input with separator</title>
+  </head>
+
+  <body ng-app="myApp">
+    <div ng-controller="myBasicController as vm">
+      <div style="padding-bottom: 7px;" class="col-lg-4">
+        Number - <input ng-model="vm.ip1" type="number" limit-to="8">
+        <br>
+        Text - <input ng-model="vm.ip2" type="text" limit-to="8">
+        <br>
+        Test - <input ng-model="vm.ip3" type="text" limit-to="">
+      </div>
+    </div>
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="lib/angular/angular.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+    <script src="js/limitTo.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+  </body>
+
+</html>
