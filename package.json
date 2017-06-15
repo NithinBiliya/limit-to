@@ -1,6 +1,6 @@
 {
   "name": "input-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "limits number of characters or numbers in an input field",
   "main": "dist/limitTo.min.js",
   "dependencies": {},
